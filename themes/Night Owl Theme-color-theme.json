@@ -1,21 +1,107 @@
 {
+	// #main color 111111
+	// #sub color 1F1F1F
+	// #border color 494949
+	// #font color 7B7B7B
+	// #subfont color A3A3A3
 	"name": "Night Owl Theme",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBar.activeBackground": "#3F0957",
+		"activityBar.activeBorder": "#3F0957",
+		"activityBar.background": "#1F1F1F",
+		"activityBar.border": "#494949",
+		"activityBar.foreground": "#DDDDDD",
+		"activityBar.inactiveForeground": "#A3A3A3",
+		"badge.background": "#3F0957",
+		"badge.foreground": "#DDDDDD",
+		"breadcrumb.background": "#111111",
+		"breadcrumb.focusForeground": "#DDDDDD",
+		"breadcrumb.foreground": "#A3A3A3",
+		"button.background": "#3F0957",
+		"button.border": "#3F0957",
+		"button.foreground": "#DDDDDD",
+		"button.hoverBackground": "#31123E",
+		"button.separator": "#DDDDDD",
+		"contrastBorder": "#1F1F1F",
+		"editorCodeLens.foreground": "#7B7B7B",
+		"editorCursor.background": "#7B7B7B",
+		"editorCursor.foreground": "#7B7B7B",
+		"editorGroupHeader.tabsBorder": "#494949",
+		"foreground": "#7B7B7B",
+		"editorLineNumber.activeForeground": "#A3A3A3",
+		"editorLineNumber.foreground": "#7B7B7B",
+		"editorLink.activeForeground": "#9B59B6",
+		"textLink.activeForeground": "#9B59B6",
+		"textLink.foreground": "#9B59B6",
+		"editorOverviewRuler.background": "#1F1F1F",
+		"editorOverviewRuler.border": "#1F1F1F",
+		"editorGroupHeader.border": "#494949",
+		"icon.foreground": "#FFFFFF",
+		"list.activeSelectionBackground": "#1F1F1F",
+		"list.focusAndSelectionOutline": "#1F1F1F",
+		"list.hoverBackground": "#1F1F1F",
+		"list.hoverForeground": "#A3A3A3",
+		"list.inactiveFocusBackground": "#1F1F1F",
+		"list.inactiveFocusOutline": "#1F1F1F",
+		"list.inactiveSelectionForeground": "#FFFFFF",
+		"list.inactiveSelectionBackground": "#1F1F1F",
+		"menu.background": "#1F1F1F",
+		"menu.border": "#494949",
+		"menu.foreground": "#A3A3A3",
+		"menu.selectionBackground": "#111111",
+		"menu.selectionBorder": "#111111",
+		"menu.selectionForeground": "#A3A3A3",
+		"menubar.selectionBackground": "#111111",
+		"menubar.selectionBorder": "#111111",
+		"minimap.background": "#1F1F1F",
+		"panel.background": "#000000",
+		"panel.border": "#494949",
+		"panelTitle.inactiveForeground": "#A3A3A3",
+		"panelTitle.activeBorder": "#7B7B7B",
+		"panelTitle.activeForeground": "#A3A3A3",
+		"phpParameterHint.hintForeground": "#C39BD3",
+		"scrollbar.shadow": "#434343",
+		"sideBar.background": "#111111",
+		"sideBar.border": "#494949",
+		"gitDecoration.ignoredResourceForeground": "#A3A3A3",
+		"sideBar.foreground": "#A3A3A3",
+		"sideBarSectionHeader.background": "#1F1F1F",
+		"sideBarSectionHeader.border": "#494949",
+		"sideBarSectionHeader.foreground": "#A3A3A3",
+		"statusBar.background": "#3F0957",
+		"statusBar.border": "#494949",
+		"statusBar.foreground": "#DDDDDD",
+		"tab.activeBackground": "#1F1F1F",
+		"tab.activeBorder": "#3F0957", //T
+		"tab.activeBorderTop": "#494949", //T
+		"tab.activeForeground": "#FFFFFF",
+		"tab.border": "#494949",
+		"tab.unfocusedHoverBackground": "#1F1F1F",
+		"tab.unfocusedHoverBorder": "#1F1F1F",
+		"terminal.background": "#000000",
+		"terminal.foreground": "#A3A3A3",
+		"titleBar.activeBackground": "#333333",
+		"titleBar.activeForeground": "#A3A3A3",
+		"titleBar.border": "#1F1F1F",
+		"titleBar.inactiveBackground": "#333333",
+		"titleBar.inactiveForeground": "#A3A3A3",
+		"editor.background": "#111111",
+		"editor.foreground": "#A3A3A3",
+		"activityBarBadge.background": "#FF0000",
+		"sideBarTitle.foreground": "#A3A3A3",
+		"editorGroupHeader.tabsBackground": "#111111",
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"comment.line",
+				"punctuation.definition.comment",
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#00FF00"
 			}
 		},
 		{
@@ -134,7 +220,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#73C6B6"
 			}
 		},
 		{
