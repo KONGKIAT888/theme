@@ -1,0 +1,22 @@
+{
+  "publisher": "Kongkiat",
+  "name": "night-owl-theme",
+  "displayName": "Night Owl Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Owl Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Owl Theme-color-theme.json"
+      }
+    ]
+  }
+}
