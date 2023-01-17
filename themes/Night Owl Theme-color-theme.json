@@ -72,8 +72,8 @@
 		"statusBar.border": "#494949",
 		"statusBar.foreground": "#DDDDDD",
 		"tab.activeBackground": "#1F1F1F",
-		"tab.activeBorder": "#3F0957", //T
-		"tab.activeBorderTop": "#494949", //T
+		"tab.activeBorder": "#3F0957",
+		"tab.activeBorderTop": "#494949",
 		"tab.activeForeground": "#FFFFFF",
 		"tab.border": "#494949",
 		"tab.unfocusedHoverBackground": "#1F1F1F",
@@ -144,26 +144,6 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -710,6 +690,149 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		// PHP
+		{
+			"scope": [
+				"punctuation.terminator.expression.php",
+				"punctuation.separator.delimiter.php",
+				"keyword.operator.string.php",
+				"keyword.other",
+				"constant.language.php",
+				"keyword.other.phpdoc.php",
+				"keyword.other.new.php",
+				"variable.language.this.php",
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.class.php",
+				"support.class.php",
+				"entity.name.type.namespace.php",
+				"punctuation.separator.inheritance.php",
+				"support.other.namespace.php",
+				"support.class.builtin.php",
+				"entity.other.inherited-class.php",
+				"keyword.other.type.php",
+				"keyword.operator.logical.php",
+				"keyword.control.import.include.php",
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+				"keyword.control",
+				"support.class.exception.php",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#F07178"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#E255E2"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.php",
+				"variable.other.global"
+			],
+			"settings": {
+				"foreground": "#F5B7B1"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.property.php",
+			],
+			"settings": {
+				"foreground": "#AED6F1"
+			}
+		},
+		{
+			"scope": [
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#F9E79F"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.decimal.php"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.php",
+				"string.quoted.double.php",
+				"constant.character.escape.php"
+			],
+			"settings": {
+				"foreground": "#FADBD8"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.class.php"
+			],
+			"settings": {
+				"foreground": "#A3A3A3"
+			}
+		},
+		{
+			"scope": [
+				"string.regexp",
+				"punctuation.definition.character-class.php",
+				"keyword.operator.regexp.php",
+				"constant.character.escape.php"
+			],
+			"settings": {
+				"foreground": "#7B7B7B"
+			}
+		},
+		{
+			"scope": [
+				"support.constant.ext.php",
+				"constant.other.class.php"
+			],
+			"settings": {
+				"foreground": "#DDDDDD"
+			}
+		},
+		// SQL
+		{
+			"scope": [
+				"keyword.other.DML.sql",
+				"constant.numeric.sql"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"scope": [
+				"source.sql.embedded.php"
+			],
+			"settings": {
+				"foreground": "#E0D1E7"
 			}
 		}
 	]
