@@ -4,7 +4,7 @@
 	// #border color 494949
 	// #font color 7B7B7B
 	// #subfont color A3A3A3
-	"name": "Night Owl Theme",
+	"name": "Night Owl Default",
 	"colors": {
 		"activityBar.activeBackground": "#3F0957",
 		"activityBar.activeBorder": "#3F0957",
@@ -27,7 +27,7 @@
 		"editorCursor.background": "#7B7B7B",
 		"editorCursor.foreground": "#7B7B7B",
 		"editorGroupHeader.tabsBorder": "#494949",
-		"foreground": "#7B7B7B",
+		"foreground": "#A3A3A3",
 		"editorLineNumber.activeForeground": "#A3A3A3",
 		"editorLineNumber.foreground": "#7B7B7B",
 		"editorLink.activeForeground": "#9B59B6",
@@ -36,7 +36,7 @@
 		"editorOverviewRuler.background": "#1F1F1F",
 		"editorOverviewRuler.border": "#1F1F1F",
 		"editorGroupHeader.border": "#494949",
-		"icon.foreground": "#FFFFFF",
+		"icon.foreground": "#A3A3A3",
 		"list.activeSelectionBackground": "#1F1F1F",
 		"list.focusAndSelectionOutline": "#1F1F1F",
 		"list.hoverBackground": "#1F1F1F",
@@ -90,6 +90,8 @@
 		"activityBarBadge.background": "#FF0000",
 		"sideBarTitle.foreground": "#A3A3A3",
 		"editorGroupHeader.tabsBackground": "#111111",
+		"input.foreground": "#DDDDDD",
+		"input.placeholderForeground": "#7B7B7B"
 	},
 	"tokenColors": [
 		{

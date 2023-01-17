@@ -3,6 +3,7 @@
   "name": "night-owl-theme",
   "displayName": "Night Owl Theme",
   "description": "",
+  "icon": "image/icon.png",
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.74.0"
