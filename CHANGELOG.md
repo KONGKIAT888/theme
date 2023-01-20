@@ -5,6 +5,9 @@ All notable changes to the "night-owl-theme" extension will be documented in thi
 ### [1.0.0 - 2023-01-20]
 **Fixed**
 - Change the color for the `json` file.
+### [0.0.5 - 2023-01-17]
+**Fixed**
+- Update the color for the `PHP` file.
 ### [0.0.4 - 2023-01-17]
 **Fixed**
 - Change the color for the `PHP` file.
