@@ -4,7 +4,8 @@
   "displayName": "Night Owl Theme",
   "description": "",
   "icon": "image/icon.png",
-  "version": "0.0.5",
+  "version": "1.0.0",
+
   "engines": {
     "vscode": "^1.74.0"
   },
