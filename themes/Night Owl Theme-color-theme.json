@@ -905,7 +905,8 @@
 			"scope": [
 				"storage.type.js",
 				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.end.js"
+				"punctuation.definition.string.end.js",
+				"support.variable.property.js",
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -916,7 +917,7 @@
 				"variable.other.readwrite.js",
 				"variable.other.object.js",
 				"variable.parameter.js",
-				"variable.other.constant.js"
+				"variable.other.constant.js",
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -924,7 +925,15 @@
 		},
 		{
 			"scope": [
-				"meta.object-literal.key.js"
+				"variable.other.object.property.js"
+			],
+			"settings": {
+				"foreground": "#EE82EE"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.key.js",
 			],
 			"settings": {
 				"foreground": "#EBF5FB"
@@ -933,7 +942,7 @@
 		{
 			"scope": [
 				"string.quoted.double.js",
-				"string.quoted.single.js"
+				"string.quoted.single.js",
 			],
 			"settings": {
 				"foreground": "#FCF3CF"
@@ -942,7 +951,7 @@
 		{
 			"scope": [
 				"constant.language.boolean",
-				"constant.language.null.js"
+				"constant.language.null.js",
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -951,7 +960,7 @@
 		{
 			"scope": [
 				"entity.name.function.js",
-				"meta.object-literal.key.js"
+				"meta.object-literal.key.js",
 			],
 			"settings": {
 				"foreground": "#F9E79F"
@@ -959,7 +968,6 @@
 		},
 		{
 			"scope": [
-				"support.variable.property.js",
 				"variable.other.property.js"
 			],
 			"settings": {

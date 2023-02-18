@@ -1,7 +1,15 @@
 # Change Log
 
 All notable changes to the "night-owl-theme" extension will be documented in this file.
-
+### [1.0.3 - 2023-02-19]
+**Fixed**
+- Change the color for the `javascript` file.
+### [1.0.2 - 2023-02-07]
+**Fixed**
+- Change the color for the `json` file.
+### [1.0.1 - 2023-02-04]
+**Fixed**
+- Change the color for the `json` file.
 ### [1.0.0 - 2023-01-20]
 **Fixed**
 - Change the color for the `json` file.
