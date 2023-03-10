@@ -25,7 +25,7 @@
 		"contrastBorder": "#1F1F1F",
 		"editorCodeLens.foreground": "#7B7B7B",
 		"editorCursor.background": "#7B7B7B",
-		"editorCursor.foreground": "#7B7B7B",
+		"editorCursor.foreground": "#FF0000",
 		"editorGroupHeader.tabsBorder": "#494949",
 		"foreground": "#A3A3A3",
 		"editorLineNumber.activeForeground": "#A3A3A3",
@@ -91,7 +91,7 @@
 		"sideBarTitle.foreground": "#A3A3A3",
 		"editorGroupHeader.tabsBackground": "#111111",
 		"input.foreground": "#DDDDDD",
-		"input.placeholderForeground": "#7B7B7B"
+		"input.placeholderForeground": "#7B7B7B",
 	},
 	"tokenColors": [
 		{
