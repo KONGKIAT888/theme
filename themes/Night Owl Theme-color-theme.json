@@ -867,7 +867,6 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"entity.other.attribute-name.html",
-				"string.template.js",
 			],
 			"settings": {
 				"foreground": "#9FE2BF"
@@ -997,6 +996,66 @@
 			],
 			"settings": {
 				"foreground": "#EBF5FB"
+			}
+		},
+		// JSX
+		{
+			"scope": [
+				"entity.name.tag.js.jsx"
+			],
+			"settings": {
+				"foreground": "#AAEDFB"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.js.jsx",
+				"meta.tag.attributes.js.jsx"
+			],
+			"settings": {
+				"foreground": "#FFE69C"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.js.jsx"
+			],
+			"settings": {
+				"foreground": "#B9FFEA"
+			}
+		},
+		{
+			"scope": [
+				"support.class.component.js.jsx",
+			],
+			"settings": {
+				"foreground": "#AA83F3"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.js.jsx",
+			],
+			"settings": {
+				"foreground": "#FBAAAA"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.js.jsx",
+				"punctuation.definition.string.end.js.jsx"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": [
+				"string.template.js"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+				,"fontStyle": "italic"
 			}
 		},
 	]
