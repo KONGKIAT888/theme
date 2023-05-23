@@ -913,7 +913,8 @@
 				"punctuation.definition.string.end.js",
 				"support.variable.property.js",
 				"punctuation.definition.string.template.begin.js",
-				"punctuation.definition.string.template.end.js"
+				"punctuation.definition.string.template.end.js",
+				"storage.type.function.arrow.js"
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -925,6 +926,7 @@
 				"variable.other.object.js",
 				"variable.parameter.js",
 				"variable.other.constant.js",
+				"variable.other.readwrite.js.jsx"
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -1001,14 +1003,6 @@
 		// JSX
 		{
 			"scope": [
-				"entity.name.tag.js.jsx"
-			],
-			"settings": {
-				"foreground": "#AAEDFB"
-			}
-		},
-		{
-			"scope": [
 				"entity.other.attribute-name.js.jsx",
 				"meta.tag.attributes.js.jsx"
 			],
@@ -1018,7 +1012,15 @@
 		},
 		{
 			"scope": [
-				"variable.other.readwrite.js.jsx"
+				"constant.language.boolean.true.js",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+
 			],
 			"settings": {
 				"foreground": "#B9FFEA"
@@ -1027,6 +1029,7 @@
 		{
 			"scope": [
 				"support.class.component.js.jsx",
+				"entity.name.tag.js.jsx"
 			],
 			"settings": {
 				"foreground": "#AA83F3"
