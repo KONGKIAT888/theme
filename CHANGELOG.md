@@ -2,6 +2,9 @@
 
 All notable changes to the "night-owl-theme" extension will be documented in this file.
 
+### [1.0.8 - 2023-06-04]
+**Fixed**
+- Change the color for the `javascript` file.
 ### [1.0.8 - 2023-05-26]
 **Fixed**
 - Change the color for the `javascript` file.

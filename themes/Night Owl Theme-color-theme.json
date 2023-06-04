@@ -842,7 +842,9 @@
 				"storage.type.js",
 				"punctuation.definition.string.begin.html",
 				"punctuation.definition.string.end.html",
-				"text.html.php"
+				"text.html.php",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -852,7 +854,7 @@
 			"scope": [
 				"entity.name.tag.html",
 				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
+				"punctuation.definition.string.end.html",
 			],
 			"settings": {
 				"foreground": "#40E0D0"
@@ -887,7 +889,7 @@
 		},
 		{
 			"scope": [
-				"source.css",
+				"source.css"
 			],
 			"settings": {
 				"foreground": "#EFBDEB",
@@ -950,7 +952,8 @@
 			"scope": [
 				"constant.language.boolean",
 				"constant.language.null.js",
-				"keyword.control.default.js"
+				"keyword.control.default.js",
+				"support.class.component.js"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -959,9 +962,7 @@
 		{
 			"scope": [
 				"entity.name.function.js",
-				"meta.object-literal.key.js",
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js"
+				"meta.object-literal.key.js"
 			],
 			"settings": {
 				"foreground": "#F9E79F"
@@ -969,10 +970,10 @@
 		},
 		{
 			"scope": [
-
+				"variable.other.constant.object.js"
 			],
 			"settings": {
-				"foreground": "#73C6B6"
+				"foreground": "#FFA500"
 			}
 		},
 		{
@@ -1011,7 +1012,7 @@
 		// JSX
 		{
 			"scope": [
-				"entity.other.attribute-name.js.jsx",
+				"entity.other.attribute-name.js",
 				"meta.tag.attributes.js.jsx"
 			],
 			"settings": {
@@ -1031,16 +1032,18 @@
 		{
 			"scope": [
 				"constant.language.boolean.true.js",
-				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.js"
 			],
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": [],
+			"scope": [
+				"support.class.error.js"
+			],
 			"settings": {
-				"foreground": "#B9FFEA"
+				"foreground": "#73C6B6"
 			}
 		},
 		{
