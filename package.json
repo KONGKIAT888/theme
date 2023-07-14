@@ -1,24 +1,23 @@
 {
-  "publisher": "Kongkiat",
-  "name": "night-owl-theme",
-  "displayName": "Night Owl Theme",
-  "description": "",
-  "icon": "image/icon.png",
-  "version": "1.0.9",
-
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Night Owl Theme Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl Theme-color-theme.json"
-      }
-    ]
-  }
+    "publisher": "Kongkiat",
+    "name": "night-owl-theme",
+    "displayName": "Night Owl Theme",
+    "description": "",
+    "icon": "image/icon.png",
+    "version": "1.1.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Night Owl Theme Default",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Night Owl Theme-color-theme.json"
+            }
+        ]
+    }
 }
