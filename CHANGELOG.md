@@ -2,6 +2,9 @@
 
 All notable changes to the "Night Owl Theme" extension will be documented in this file.
 
+### [1.1.2 - 2023-07-16] : Latest
+**Fixed**
+- Change the color for the `typescript ` file.
 ### [1.1.1 - 2023-07-15] : Latest
 **Fixed**
 - Change the color for the `typescript ` file.

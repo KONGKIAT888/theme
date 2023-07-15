@@ -1078,6 +1078,40 @@
 				"foreground": "#C3E88D"
 			}
 		},
+		{
+			"name": "Literal",
+			"scope": [
+				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.template.begin.js.jsx"
+			],
+			"settings": {
+				"foreground": "#F07178"
+			}
+		},
+		{
+			"name": "String in Literal",
+			"scope": [
+				"string.template.js",
+				"string.template.js.jsx"
+			],
+			"settings": {
+				"foreground": "#FFC0CB",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String in Literal",
+			"scope": [
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.begin.js.jsx",
+				"punctuation.definition.template-expression.end.js.jsx"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "italic"
+			}
+		},
 		// Typescript and Typescript React
 		{
 			"name": "Function Name",
@@ -1245,6 +1279,40 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Literal",
+			"scope": [
+				"punctuation.definition.string.template.begin.ts",
+				"punctuation.definition.string.template.begin.tsx"
+			],
+			"settings": {
+				"foreground": "#F07178"
+			}
+		},
+		{
+			"name": "String in Literal",
+			"scope": [
+				"string.template.ts",
+				"string.template.tsx"
+			],
+			"settings": {
+				"foreground": "#FFC0CB",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String in Literal",
+			"scope": [
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.ts",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.end.tsx"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "italic"
 			}
 		}
 	]
