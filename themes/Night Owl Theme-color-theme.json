@@ -931,6 +931,10 @@
 				"support.class.error.js.jsx",
 				"constant.language.boolean.js",
 				"constant.language.boolean.js.jsx",
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.js.jsx",
+				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.js.jsx",
 				"constant.language.null.js",
 				"constant.language.null.js.jsx",
 				"support.class.component.js",
@@ -944,7 +948,7 @@
 				"keyword.control.as.js",
 				"keyword.control.as.js.jsx",
 				"support.type.builtin.js",
-				"support.type.builtin.js.jsx"
+				"support.type.builtin.js.jsx",
 			],
 			"settings": {
 				"foreground": "#AA83F3"
@@ -976,7 +980,9 @@
 				"variable.other.enummember.js",
 				"variable.other.enummember.js.jsx",
 				"variable.parameter.js",
-				"variable.parameter.js.jsx"
+				"variable.parameter.js.jsx",
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.js.jsx"
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -1003,6 +1009,8 @@
 				"punctuation.definition.string.begin.js.jsx",
 				"punctuation.definition.string.end.js",
 				"punctuation.definition.string.end.js.jsx",
+				"punctuation.separator.key-value.js",
+				"punctuation.separator.key-value.js.jsx",
 				"keyword.control.default.js",
 				"keyword.control.default.js.jsx",
 				"keyword.operator.logical.js",
@@ -1011,8 +1019,12 @@
 				"keyword.operator.type.js.jsx",
 				"keyword.operator.new.js",
 				"keyword.operator.new.js",
+				"support.variable.property.js",
+				"support.variable.property.js.jsx",
 				"keyword.operator.optional.js",
 				"keyword.operator.optional.js.jsx",
+				"punctuation.accessor.optional.js",
+				"punctuation.accessor.optional.js.jsx"
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -1042,10 +1054,13 @@
 				"entity.name.type.module.js",
 				"entity.name.type.module.js.jsx",
 				"support.type.primitive.js",
-				"support.type.primitive.js.jsx"
+				"support.type.primitive.js.jsx",
+				"keyword.operator.ternary.js",
+				"keyword.operator.ternary.js.jsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#FFFFFF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1112,6 +1127,17 @@
 				"fontStyle": "italic"
 			}
 		},
+		{
+			"name": "Optional",
+			"scope": [
+				"keyword.operator.type.annotation.js",
+				"keyword.operator.type.annotation.js.jsx",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "bold"
+			}
+		},
 		// Typescript and Typescript React
 		{
 			"name": "Function Name",
@@ -1134,6 +1160,10 @@
 				"support.class.error.tsx",
 				"constant.language.boolean.ts",
 				"constant.language.boolean.tsx",
+				"constant.language.boolean.true.ts",
+				"constant.language.boolean.true.tsx",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.false.tsx",
 				"constant.language.null.ts",
 				"constant.language.null.tsx",
 				"support.class.component.ts",
@@ -1179,7 +1209,9 @@
 				"variable.other.enummember.ts",
 				"variable.other.enummember.tsx",
 				"variable.parameter.ts",
-				"variable.parameter.tsx"
+				"variable.parameter.tsx",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.tsx"
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -1206,6 +1238,8 @@
 				"punctuation.definition.string.begin.tsx",
 				"punctuation.definition.string.end.ts",
 				"punctuation.definition.string.end.tsx",
+				"punctuation.separator.key-value.ts",
+				"punctuation.separator.key-value.tsx",
 				"keyword.control.default.ts",
 				"keyword.control.default.tsx",
 				"keyword.operator.logical.ts",
@@ -1214,8 +1248,12 @@
 				"keyword.operator.type.tsx",
 				"keyword.operator.new.ts",
 				"keyword.operator.new.ts",
+				"support.variable.property.ts",
+				"support.variable.property.tsx",
 				"keyword.operator.optional.ts",
 				"keyword.operator.optional.tsx",
+				"punctuation.accessor.optional.ts",
+				"punctuation.accessor.optional.tsx"
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -1245,10 +1283,13 @@
 				"entity.name.type.module.ts",
 				"entity.name.type.module.tsx",
 				"support.type.primitive.ts",
-				"support.type.primitive.tsx"
+				"support.type.primitive.tsx",
+				"keyword.operator.ternary.ts",
+				"keyword.operator.ternary.tsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#FFFFFF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1313,6 +1354,17 @@
 			"settings": {
 				"foreground": "#FFFFFF",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Optional",
+			"scope": [
+				"keyword.operator.type.annotation.ts",
+				"keyword.operator.type.annotation.tsx",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "bold"
 			}
 		}
 	]
