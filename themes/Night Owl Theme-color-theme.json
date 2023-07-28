@@ -1153,7 +1153,7 @@
 				"meta.object-literal.key.js.jsx"
 			],
 			"settings": {
-				"foreground": "#ebceff"
+				"foreground": "#EBCEFF"
 			}
 		},
 		// Typescript and Typescript React
@@ -1398,8 +1398,27 @@
 				"meta.object-literal.key.tsx"
 			],
 			"settings": {
-				"foreground": "#ebceff"
+				"foreground": "#EBCEFF"
 			}
 		},
+		// JS DOCS
+		{
+			"name": "Instance",
+			"scope": [
+				"entity.name.type.instance.jsdoc",
+			],
+			"settings": {
+				"foreground": "#F07178"
+			}
+		},
+		{
+			"name": "Type Class",
+			"scope": [
+				"storage.type.class.jsdoc",
+			],
+			"settings": {
+				"foreground": "#AA83F3"
+			}
+		}
 	]
 }
