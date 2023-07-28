@@ -86,6 +86,8 @@
 		"editorGroupHeader.tabsBackground": "#000000",
 		"input.foreground": "#DDDDDD",
 		"input.placeholderForeground": "#7B7B7B",
+		"editorInlayHint.background": "#1E1E1E",
+		"editorInlayHint.foreground": "#8F8F8F"
 	},
 	"tokenColors": [
 		{
