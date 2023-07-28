@@ -916,7 +916,9 @@
 			"name": "Function Name",
 			"scope": [
 				"entity.name.function.js",
-				"entity.name.function.js.jsx"
+				"entity.name.function.js.jsx",
+				"support.function.js",
+				"support.function.js.jsx",
 			],
 			"settings": {
 				"foreground": "#F9E79F"
@@ -982,9 +984,7 @@
 				"variable.other.enummember.js",
 				"variable.other.enummember.js.jsx",
 				"variable.parameter.js",
-				"variable.parameter.js.jsx",
-				"meta.object-literal.key.js",
-				"meta.object-literal.key.js.jsx"
+				"variable.parameter.js.jsx"
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -1079,7 +1079,13 @@
 			"name": "String in Double Quote",
 			"scope": [
 				"string.quoted.double.js",
-				"string.quoted.double.js.jsx"
+				"string.quoted.double.js.jsx",
+				"keyword.operator.expression.void.js",
+				"keyword.operator.expression.void.js.jsx",
+				"variable.other.property.js",
+				"variable.other.property.js.jsx",
+				"keyword.operator.spread.js",
+				"keyword.operator.spread.js.jsx"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
@@ -1140,12 +1146,24 @@
 				"fontStyle": "bold"
 			}
 		},
+		{
+			"name": "Object",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.js.jsx"
+			],
+			"settings": {
+				"foreground": "#ebceff"
+			}
+		},
 		// Typescript and Typescript React
 		{
 			"name": "Function Name",
 			"scope": [
 				"entity.name.function.ts",
-				"entity.name.function.tsx"
+				"entity.name.function.tsx",
+				"support.function.ts",
+				"support.function.tsx"
 			],
 			"settings": {
 				"foreground": "#F9E79F"
@@ -1211,9 +1229,7 @@
 				"variable.other.enummember.ts",
 				"variable.other.enummember.tsx",
 				"variable.parameter.ts",
-				"variable.parameter.tsx",
-				"meta.object-literal.key.ts",
-				"meta.object-literal.key.tsx"
+				"variable.parameter.tsx"
 			],
 			"settings": {
 				"foreground": "#AED6F1"
@@ -1308,7 +1324,13 @@
 			"name": "String in Double Quote",
 			"scope": [
 				"string.quoted.double.ts",
-				"string.quoted.double.tsx"
+				"string.quoted.double.tsx",
+				"keyword.operator.expression.void.ts",
+				"keyword.operator.expression.void.tsx",
+				"variable.other.property.ts",
+				"variable.other.property.tsx",
+				"keyword.operator.spread.ts",
+				"keyword.operator.spread.tsx"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
@@ -1368,6 +1390,16 @@
 				"foreground": "#FFFFFF",
 				"fontStyle": "bold"
 			}
-		}
+		},
+		{
+			"name": "Object",
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.tsx"
+			],
+			"settings": {
+				"foreground": "#ebceff"
+			}
+		},
 	]
 }
