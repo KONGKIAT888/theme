@@ -82,6 +82,10 @@
 		"editor.background": "#000000",
 		"editor.foreground": "#A3A3A3",
 		"activityBarBadge.background": "#FF0000",
+		"statusBarItem.remoteBackground": "#250033",
+		"statusBarItem.remoteForeground": "#FFFFFF",
+		"statusBarItem.remoteHoverBackground": "#170020",
+		"statusBarItem.remoteHoverForeground": "#FFFFFF",
 		"sideBarTitle.foreground": "#A3A3A3",
 		"editorGroupHeader.tabsBackground": "#000000",
 		"input.foreground": "#DDDDDD",
@@ -911,14 +915,20 @@
 				"foreground": "#EBF5FB"
 			}
 		},
-		// Javascript and Javascript React
+		// Typescript and Typescript React
 		{
 			"name": "Function Name",
 			"scope": [
+				// JavaScript
 				"entity.name.function.js",
 				"entity.name.function.js.jsx",
 				"support.function.js",
 				"support.function.js.jsx",
+				// TypeScript
+				"entity.name.function.ts",
+				"entity.name.function.tsx",
+				"support.function.ts",
+				"support.function.tsx"
 			],
 			"settings": {
 				"foreground": "#F9E79F"
@@ -927,6 +937,7 @@
 		{
 			"name": "Name Tags JSX and Component",
 			"scope": [
+				// JavaScript
 				"entity.name.tag.js",
 				"entity.name.tag.js.jsx",
 				"support.class.component.js",
@@ -953,225 +964,7 @@
 				"keyword.control.as.js.jsx",
 				"support.type.builtin.js",
 				"support.type.builtin.js.jsx",
-			],
-			"settings": {
-				"foreground": "#AA83F3"
-			}
-		},
-		{
-			"name": "Attribute Name",
-			"scope": [
-				"entity.other.attribute-name.js",
-				"entity.other.attribute-name.js.jsx"
-			],
-			"settings": {
-				"foreground": "#AAAAAA"
-			}
-		},
-		{
-			"name": "Variable",
-			"scope": [
-				"entity.name.label.js",
-				"entity.name.label.js.jsx",
-				"variable.object.property.js",
-				"variable.object.property.js.jsx",
-				"variable.other.constant.js",
-				"variable.other.constant.js.jsx",
-				"variable.other.readwrite.js",
-				"variable.other.readwrite.js.jsx",
-				"variable.other.object.js",
-				"variable.other.object.js.jsx",
-				"variable.other.enummember.js",
-				"variable.other.enummember.js.jsx",
-				"variable.parameter.js",
-				"variable.parameter.js.jsx"
-			],
-			"settings": {
-				"foreground": "#AED6F1"
-			}
-		},
-		{
-			"name": "Storage Type and Quote",
-			"scope": [
-				"storage.type.js",
-				"storage.type.js.jsx",
-				"storage.type.class.js",
-				"storage.type.class.js.jsx",
-				"storage.type.enum.js",
-				"storage.type.enum.js.jsx",
-				"storage.type.type.js",
-				"storage.type.type.js.jsx",
-				"storage.type.function.js",
-				"storage.type.function.js.jsx",
-				"storage.type.interface.js",
-				"storage.type.interface.js.jsx",
-				"storage.modifier.js",
-				"storage.modifier.js.jsx",
-				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.begin.js.jsx",
-				"punctuation.definition.string.end.js",
-				"punctuation.definition.string.end.js.jsx",
-				"punctuation.separator.key-value.js",
-				"punctuation.separator.key-value.js.jsx",
-				"keyword.control.default.js",
-				"keyword.control.default.js.jsx",
-				"keyword.operator.logical.js",
-				"keyword.operator.logical.js.jsx",
-				"keyword.operator.type.js",
-				"keyword.operator.type.js.jsx",
-				"keyword.operator.new.js",
-				"keyword.operator.new.js",
-				"support.variable.property.js",
-				"support.variable.property.js.jsx",
-				"keyword.operator.optional.js",
-				"keyword.operator.optional.js.jsx",
-				"punctuation.accessor.optional.js",
-				"punctuation.accessor.optional.js.jsx"
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
-			"name": "Type",
-			"scope": [
-				"entity.name.type.js",
-				"entity.name.type.js.jsx",
-				"entity.name.type.interface.js",
-				"entity.name.type.interface.js.jsx",
-				"entity.name.type.alias.js",
-				"entity.name.type.alias.js.jsx",
-				"entity.name.type.class.js",
-				"entity.name.type.class.js.jsx",
-				"entity.other.inherited-class.js",
-				"entity.other.inherited-class.js.jsx"
-			],
-			"settings": {
-				"foreground": "#73C6B6"
-			}
-		},
-		{
-			"name": "Module and Support Type",
-			"scope": [
-				"entity.name.type.module.js",
-				"entity.name.type.module.js.jsx",
-				"support.type.primitive.js",
-				"support.type.primitive.js.jsx",
-				"keyword.operator.ternary.js",
-				"keyword.operator.ternary.js.jsx"
-			],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "String in Single Quote",
-			"scope": [
-				"string.quoted.single.js",
-				"string.quoted.single.js.jsx"
-			],
-			"settings": {
-				"foreground": "#FFC0CB"
-			}
-		},
-		{
-			"name": "String in Double Quote",
-			"scope": [
-				"string.quoted.double.js",
-				"string.quoted.double.js.jsx",
-				"keyword.operator.expression.void.js",
-				"keyword.operator.expression.void.js.jsx",
-				"variable.other.property.js",
-				"variable.other.property.js.jsx",
-				"keyword.operator.spread.js",
-				"keyword.operator.spread.js.jsx"
-			],
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "Numeric",
-			"scope": [
-				"constant.numeric.decimal.js",
-				"constant.numeric.decimal.js.jsx"
-			],
-			"settings": {
-				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Literal",
-			"scope": [
-				"punctuation.definition.string.template.begin.js",
-				"punctuation.definition.string.template.begin.js.jsx"
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
-			"name": "String in Literal",
-			"scope": [
-				"string.template.js",
-				"string.template.js.jsx"
-			],
-			"settings": {
-				"foreground": "#FFC0CB",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "String in Literal",
-			"scope": [
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js",
-				"punctuation.definition.template-expression.begin.js.jsx",
-				"punctuation.definition.template-expression.end.js.jsx"
-			],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Optional",
-			"scope": [
-				"keyword.operator.type.annotation.js",
-				"keyword.operator.type.annotation.js.jsx",
-			],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Object",
-			"scope": [
-				"meta.object-literal.key.js",
-				"meta.object-literal.key.js.jsx"
-			],
-			"settings": {
-				"foreground": "#EBCEFF"
-			}
-		},
-		// Typescript and Typescript React
-		{
-			"name": "Function Name",
-			"scope": [
-				"entity.name.function.ts",
-				"entity.name.function.tsx",
-				"support.function.ts",
-				"support.function.tsx"
-			],
-			"settings": {
-				"foreground": "#F9E79F"
-			}
-		},
-		{
-			"name": "Name Tags JSX and Component",
-			"scope": [
+				// TypeScript
 				"entity.name.tag.ts",
 				"entity.name.tag.tsx",
 				"support.class.component.ts",
@@ -1206,6 +999,10 @@
 		{
 			"name": "Attribute Name",
 			"scope": [
+				// JavaScript
+				"entity.other.attribute-name.js",
+				"entity.other.attribute-name.js.jsx",
+				// TypeScript
 				"entity.other.attribute-name.ts",
 				"entity.other.attribute-name.tsx"
 			],
@@ -1216,6 +1013,22 @@
 		{
 			"name": "Variable",
 			"scope": [
+				// JavaScript
+				"entity.name.label.js",
+				"entity.name.label.js.jsx",
+				"variable.object.property.js",
+				"variable.object.property.js.jsx",
+				"variable.other.constant.js",
+				"variable.other.constant.js.jsx",
+				"variable.other.readwrite.js",
+				"variable.other.readwrite.js.jsx",
+				"variable.other.object.js",
+				"variable.other.object.js.jsx",
+				"variable.other.enummember.js",
+				"variable.other.enummember.js.jsx",
+				"variable.parameter.js",
+				"variable.parameter.js.jsx",
+				// TypeScript
 				"entity.name.label.ts",
 				"entity.name.label.tsx",
 				"variable.object.property.ts",
@@ -1238,6 +1051,50 @@
 		{
 			"name": "Storage Type and Quote",
 			"scope": [
+				// JavaScript
+				"storage.type.js",
+				"storage.type.js.jsx",
+				"storage.type.class.js",
+				"storage.type.class.js.jsx",
+				"storage.type.enum.js",
+				"storage.type.enum.js.jsx",
+				"storage.type.type.js",
+				"storage.type.type.js.jsx",
+				"storage.type.function.js",
+				"storage.type.function.js.jsx",
+				"storage.type.interface.js",
+				"storage.type.interface.js.jsx",
+				"storage.modifier.js",
+				"storage.modifier.js.jsx",
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.begin.js.jsx",
+				"punctuation.definition.string.end.js",
+				"punctuation.definition.string.end.js.jsx",
+				"punctuation.separator.key-value.js",
+				"punctuation.separator.key-value.js.jsx",
+				"keyword.control.default.js",
+				"keyword.control.default.js.jsx",
+				"keyword.operator.logical.js",
+				"keyword.operator.logical.js.jsx",
+				"keyword.operator.type.js",
+				"keyword.operator.type.js.jsx",
+				"keyword.operator.new.js",
+				"keyword.operator.new.js",
+				"support.variable.property.js",
+				"support.variable.property.js.jsx",
+				"keyword.operator.optional.js",
+				"keyword.operator.optional.js.jsx",
+				"punctuation.accessor.optional.js",
+				"punctuation.accessor.optional.js.jsx",
+				"keyword.operator.expression.void.js",
+				"keyword.operator.expression.void.js.jsx",
+				"support.class.error.js",
+				"support.class.error.js.jsx",
+				"storage.modifier.async.js",
+				"storage.modifier.async.js.jsx",
+				"keyword.control.as.js",
+				"keyword.control.as.js.jsx",
+				// TypeScript
 				"storage.type.ts",
 				"storage.type.tsx",
 				"storage.type.class.ts",
@@ -1271,7 +1128,15 @@
 				"keyword.operator.optional.ts",
 				"keyword.operator.optional.tsx",
 				"punctuation.accessor.optional.ts",
-				"punctuation.accessor.optional.tsx"
+				"punctuation.accessor.optional.tsx",
+				"keyword.operator.expression.void.ts",
+				"keyword.operator.expression.void.tsx",
+				"support.class.error.ts",
+				"support.class.error.tsx",
+				"storage.modifier.async.ts",
+				"storage.modifier.async.tsx",
+				"keyword.control.as.ts",
+				"keyword.control.as.tsx"
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -1280,6 +1145,18 @@
 		{
 			"name": "Type",
 			"scope": [
+				// JavaScript
+				"entity.name.type.js",
+				"entity.name.type.js.jsx",
+				"entity.name.type.interface.js",
+				"entity.name.type.interface.js.jsx",
+				"entity.name.type.alias.js",
+				"entity.name.type.alias.js.jsx",
+				"entity.name.type.class.js",
+				"entity.name.type.class.js.jsx",
+				"entity.other.inherited-class.js",
+				"entity.other.inherited-class.js.jsx",
+				// TypeScript
 				"entity.name.type.ts",
 				"entity.name.type.tsx",
 				"entity.name.type.interface.ts",
@@ -1298,6 +1175,14 @@
 		{
 			"name": "Module and Support Type",
 			"scope": [
+				// JavaScript
+				"entity.name.type.module.js",
+				"entity.name.type.module.js.jsx",
+				"support.type.primitive.js",
+				"support.type.primitive.js.jsx",
+				"keyword.operator.ternary.js",
+				"keyword.operator.ternary.js.jsx",
+				// TypeScript
 				"entity.name.type.module.ts",
 				"entity.name.type.module.tsx",
 				"support.type.primitive.ts",
@@ -1313,6 +1198,10 @@
 		{
 			"name": "String in Single Quote",
 			"scope": [
+				// JavaScript
+				"string.quoted.single.js",
+				"string.quoted.single.js.jsx",
+				// TypeScript
 				"string.quoted.single.ts",
 				"string.quoted.single.tsx"
 			],
@@ -1323,10 +1212,16 @@
 		{
 			"name": "String in Double Quote",
 			"scope": [
+				// JavaScript
+				"string.quoted.double.js",
+				"string.quoted.double.js.jsx",
+				"variable.other.property.js",
+				"variable.other.property.js.jsx",
+				"keyword.operator.spread.js",
+				"keyword.operator.spread.js.jsx",
+				// TypeScript
 				"string.quoted.double.ts",
 				"string.quoted.double.tsx",
-				"keyword.operator.expression.void.ts",
-				"keyword.operator.expression.void.tsx",
 				"variable.other.property.ts",
 				"variable.other.property.tsx",
 				"keyword.operator.spread.ts",
@@ -1339,6 +1234,10 @@
 		{
 			"name": "Numeric",
 			"scope": [
+				// JavaScript
+				"constant.numeric.decimal.js",
+				"constant.numeric.decimal.js.jsx",
+				// TypeScript
 				"constant.numeric.decimal.ts",
 				"constant.numeric.decimal.tsx"
 			],
@@ -1349,8 +1248,16 @@
 		{
 			"name": "Literal",
 			"scope": [
+				// JavaScript
+				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.template.begin.js.jsx",
+				"punctuation.definition.string.template.end.js",
+				"punctuation.definition.string.template.end.js.jsx",
+				// TypeScript
 				"punctuation.definition.string.template.begin.ts",
-				"punctuation.definition.string.template.begin.tsx"
+				"punctuation.definition.string.template.begin.tsx",
+				"punctuation.definition.string.template.end.ts",
+				"punctuation.definition.string.template.end.tsx",
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -1359,6 +1266,10 @@
 		{
 			"name": "String in Literal",
 			"scope": [
+				// JavaScript
+				"string.template.js",
+				"string.template.js.jsx",
+				// TypeScript
 				"string.template.ts",
 				"string.template.tsx"
 			],
@@ -1370,6 +1281,12 @@
 		{
 			"name": "String in Literal",
 			"scope": [
+				// JavaScript
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.begin.js.jsx",
+				"punctuation.definition.template-expression.end.js.jsx",
+				// TypeScript
 				"punctuation.definition.template-expression.begin.ts",
 				"punctuation.definition.template-expression.end.ts",
 				"punctuation.definition.template-expression.begin.tsx",
@@ -1383,6 +1300,10 @@
 		{
 			"name": "Optional",
 			"scope": [
+				// JavaScript
+				"keyword.operator.type.annotation.js",
+				"keyword.operator.type.annotation.js.jsx",
+				// TypeScript
 				"keyword.operator.type.annotation.ts",
 				"keyword.operator.type.annotation.tsx",
 			],
@@ -1394,6 +1315,10 @@
 		{
 			"name": "Object",
 			"scope": [
+				// JavaScript
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.js.jsx",
+				// TypeScript
 				"meta.object-literal.key.ts",
 				"meta.object-literal.key.tsx"
 			],
